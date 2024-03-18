@@ -1,0 +1,89 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  background-color: rgba(0, 0, 0, 0.719);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  border-radius: 8px;
+  padding: 100px 20px 25px 20px;
+  background-color: rgb(143, 135, 135);
+  box-shadow: 0 5px 5px 9px rgba(46, 44, 44, 0.219);
+}
+/* ..................input styling................. */
+
+input {
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 9px;
+  width: 350px;
+  padding: 30px;
+  outline: none;
+  text-align: right;
+  border: none;
+  pointer-events: none;
+}
+/*.......................... button row styling.................... */
+div.row {
+  width: 350px;
+  margin-top: 7px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .........................button styling........................ */
+button.btn {
+  background-color: rgb(71, 67, 67);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  width: 80px;
+  cursor: pointer;
+}
+button.btn:hover {
+  background-color: rgb(153, 153, 153);
+}
+button#blue:hover{
+  background-color: rgb(42, 0, 156);
+}
+button#red:hover{
+  background-color: rgb(201, 8, 8);
+}
+button#green:hover{
+  background-color: rgb(8, 168, 8);
+}
+button.btn:active {
+  background-color: #c9c6c6;
+}
+button#blue:active{
+  background-color: rgb(75, 24, 216);
+}
+button#red:active{
+  background-color: rgb(250, 33, 33);
+}
+button#green:active{
+  background-color: rgb(6, 228, 6);
+}
+button#blue{
+  background-color: rgb(75, 24, 216);
+}
+button#red{
+  background-color: rgba(238, 27, 27, 0.801);
+}
+button#green{
+  background-color: rgb(6, 228, 6);
+}
